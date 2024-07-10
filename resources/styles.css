@@ -1,0 +1,85 @@
+body {
+    background-color:#FAF4E8;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 200;
+    color: #003740;
+    display: block;
+  
+}
+
+a {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 200;
+    color: #003740;
+}
+img {
+    max-height: 50%;
+    max-width: fit-content;
+    
+}
+div.col-4.ms-5 {
+    max-height: 75vh;
+    max-width: fit-content;
+}
+#codeContainer, #designContainer {
+    width: 100%;
+    border: 1px solid #003740;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-height: 650px;
+    overflow: scroll;
+}
+h2 {
+    font-size: 25px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 200;
+    color: #003740;
+   
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 200;
+    color: #003740;
+   
+}
+a.nav-link, a.dropdown-item {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 200;
+    color: #003740;
+
+}
+div.dropdown-menu.show {
+    background-color: transparent;
+    border-style: none;
+}
+nav {
+    background-color: #FAF4E8;
+}
+#carouselDesign1, #carouselDesign2, #carouselDesign3, #carouselDesign4, #carouselDesign5 {
+    width: 100%;
+    height: auto;
+    
+}
+#design_description {
+    width: 100%;
+}
+
+a.icon-link.link-underline.link-underline-opacity-0 {
+    font-size: 23px;
+}
+
+@media (max-width: 800px) {
+    .flex-row {
+        flex-direction: column-reverse !important;
+    }
+    #design_description {
+        width: 100%;
+    }
+}
