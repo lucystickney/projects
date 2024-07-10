@@ -1,12 +1,9 @@
-body {
-    background-color:#FAF4E8;
-}
 
 p {
     font-size: 20px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 200;
-    color: #003740;
+    
     display: block;
   
 }
@@ -14,7 +11,7 @@ p {
 a {
     font-family: "Noto Sans Mono", monospace;
     font-weight: 200;
-    color: #003740;
+    
 }
 img {
     max-height: 50%;
@@ -38,7 +35,7 @@ h2 {
     font-size: 25px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 200;
-    color: #003740;
+   
    
 }
 
@@ -46,13 +43,13 @@ h1 {
     font-size: 30px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 200;
-    color: #003740;
+   
    
 }
 a.nav-link, a.dropdown-item {
     font-family: "Noto Sans Mono", monospace;
     font-weight: 200;
-    color: #003740;
+    
 
 }
 div.dropdown-menu.show {
@@ -73,6 +70,18 @@ nav {
 
 a.icon-link.link-underline.link-underline-opacity-0 {
     font-size: 23px;
+}
+
+.greenColor {
+    background-color: #003740 !important;
+    color:#FAF4E8 !important;
+    border-color: #FAF4E8 !important;
+}
+
+.whiteColor {
+    background-color: #FAF4E8 !important;
+    color:#003740 !important;
+    border-color:#003740 !important;
 }
 
 @media (max-width: 800px) {
