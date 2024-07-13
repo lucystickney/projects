@@ -71,6 +71,16 @@ a.icon-link.link-underline.link-underline-opacity-0 {
     font-size: 23px;
 }
 
+#designPage, #codePage {
+    padding: 100px;
+}
+
+.navbar {
+    --bs-navbar-toggler-border-color: none;
+    --bs-navbar-active-color: none;
+    --bs-navbar-color: none;
+}
+
 .greenColor {
     background-color: #003740 !important;
     color:#FAF4E8 !important;
@@ -89,5 +99,8 @@ a.icon-link.link-underline.link-underline-opacity-0 {
     }
     #design_description {
         width: 100%;
+    }
+    #designPage, #codePage {
+        padding: 30px;
     }
 }
