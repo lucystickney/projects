@@ -52,10 +52,25 @@ a.nav-link, a.dropdown-item {
     
 
 }
+
 div.dropdown-menu.show {
     background-color: transparent;
     border-style: none;
 }
+/*
+
+.show {
+    display: flex !important;
+    justify-content: end !important; 
+}
+div#navbarNavDropdown {
+    display: flex !important;
+    justify-content: end !important;
+}
+.collapse:not(.show) {
+    display: none !important;
+}
+*/
 
 #carouselDesign1, #carouselDesign2, #carouselDesign3, #carouselDesign4, #carouselDesign5 {
     width: 100%;
