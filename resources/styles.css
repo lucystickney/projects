@@ -100,12 +100,14 @@ a.icon-link.link-underline.link-underline-opacity-0 {
     background-color: #003740 !important;
     color:#FAF4E8 !important;
     border-color: #FAF4E8 !important;
+    text-decoration-color: #FAF4E8 !important;   
 }
 
 .whiteColor {
     background-color: #FAF4E8 !important;
     color:#003740 !important;
     border-color:#003740 !important;
+    text-decoration-color: #003740 !important;   
 }
 
 @media (max-width: 800px) {
@@ -117,5 +119,14 @@ a.icon-link.link-underline.link-underline-opacity-0 {
     }
     #designPage, #codePage {
         padding: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
     }
 }
