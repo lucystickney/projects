@@ -100,14 +100,20 @@ a.icon-link.link-underline.link-underline-opacity-0 {
     background-color: #003740 !important;
     color:#FAF4E8 !important;
     border-color: #FAF4E8 !important;
-    text-decoration-color: #FAF4E8 !important;   
+     
 }
 
 .whiteColor {
     background-color: #FAF4E8 !important;
     color:#003740 !important;
     border-color:#003740 !important;
-    text-decoration-color: #003740 !important;   
+    
+}
+.whiteLink {
+    text-decoration-color: #0037407c !important;   
+}
+.greenLink {
+    text-decoration-color: #faf4e879 !important;  
 }
 
 @media (max-width: 800px) {

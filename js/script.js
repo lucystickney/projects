@@ -8,8 +8,14 @@ function switchToGreen() {
     whiteElements.forEach(element => {
         element.classList.remove('whiteColor');
         element.classList.add('greenColor');
-    });
 
+    });
+    const whiteLinks = document.querySelectorAll('.link-offset-2');
+    whiteLinks.forEach(element => {
+        element.classList.remove('whiteLink');
+        element.classList.add('greenLink');
+
+    });
     localStorage.setItem('isGreen', 'true');
 }
 
@@ -18,6 +24,12 @@ function switchToWhite() {
     whiteElements.forEach(element => {
         element.classList.remove('greenColor');
         element.classList.add('whiteColor');
+    });
+    const greenLinks = document.querySelectorAll('.link-offset-2');
+    greenLinks.forEach(element => {
+        element.classList.remove('greenLink');
+        element.classList.add('whiteLink');
+
     });
 
     localStorage.setItem('isGreen', 'false');
