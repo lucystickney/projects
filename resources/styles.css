@@ -29,8 +29,12 @@ div.col-4.ms-5 {
     margin-bottom: 40px;
     padding: 10px;
     max-height: 650px;
+}
+
+#designContainer {
     overflow: scroll;
 }
+
 h2 {
     font-size: 25px;
     font-family: "Noto Sans Mono", monospace;
