@@ -76,7 +76,7 @@ div#navbarNavDropdown {
 }
 */
 
-#carouselDesign1, #carouselDesign2, #carouselDesign3, #carouselDesign4, #carouselDesign5, #carouselDesign6, #carouselDesign7, #carouselDesign8 {
+#carouselDesign1, #carouselDesign2, #carouselDesign3, #carouselDesign4, #carouselDesign5, #carouselDesign6, #carouselDesign7, #carouselDesign8, #carouselDesign9 {
     width: 100%;
     height: auto;
     
@@ -112,6 +112,9 @@ a.icon-link.link-underline.link-underline-opacity-0 {
     color:#003740 !important;
     border-color:#003740 !important;
     
+}
+.carousel-control-prev-icon.whiteColor, .carousel-control-next-icon.whiteColor {
+    background-color: #003740 !important;
 }
 .whiteLink {
     text-decoration-color: #0037407c !important;   
